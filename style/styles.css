@@ -2,21 +2,89 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+footer {
+  padding: 2em;
+  background-color: #262626;
+  font-size: 0.6em;
+  color: white;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+}
+
+em {
+  font-weight: 700;
+}
+
 .ban {
   width: 100%;
 }
 
 .disclaimer {
   padding: 0.9em;
-  background-color: black;
+  background-color: black; 
   font-size: 0.8em;
   text-align: center;
   color: white;
-  font-family: 'Roboto', sans-serif;
 }
 
 .white_article {
-  background-color: white;
+  margin: 0 6em;
   padding: 3em;
-  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.two_rows {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.title_block {
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+.title {
+  font-size: 1.4em;
+}
+
+.title_black {
+  padding: 0.1em 0.4em;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.excerpt {
+  margin-bottom: 0.8em;
+  line-height: 1.2em;
+}
+
+.darkblue_article {
+  padding: 1.5em;
+  background-color: #252764;
+  text-align: center;
+  color: white;
+}
+
+.lightblue_article {
+  padding: 1.5em;
+  background-color: #acd6fc;
+  text-align: center;
+}
+
+.darkgrey_article {
+  padding: 1.5em;
+  background-color: #d9cdbf;
+  text-align: center;
+}
+
+.lightgrey_article {
+  padding: 2em;
+  background-color: #f2f2f0;
 }
