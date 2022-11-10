@@ -1,3 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .ban {
   width: 100%;
+}
+
+.disclaimer {
+  padding: 0.9em;
+  background-color: black;
+  font-size: 0.8em;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.white_article {
+  background-color: white;
+  padding: 3em;
+  font-family: 'Roboto', sans-serif;
 }
