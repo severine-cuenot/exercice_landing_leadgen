@@ -32,24 +32,34 @@ em {
 }
 
 .white_article {
-  margin: 0 6em;
-  padding: 3em;
+  margin: 0 10em;
+  padding: 0 3em;
   background-color: white;
 }
 
 .two_rows {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.row_one {
+  display: flex;
+  flex-direction: column;
+}
+.row_two {
+  display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 .title_block {
   margin-bottom: 0.5em;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .title {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 .title_black {
@@ -57,12 +67,18 @@ em {
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 .excerpt {
   margin-bottom: 0.8em;
-  line-height: 1.2em;
+  line-height: 1.3em;
+  font-size: 1.1em;
+}
+
+.excerpt_ordi {
+  width: 70%;
+  padding-top: 5em;
 }
 
 .darkblue_article {
