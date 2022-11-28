@@ -31,6 +31,29 @@ em {
   color: white;
 }
 
+.first_article {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 6em;
+  /* align-content: center;
+  justify-content: space-between; */
+}
+
+.first_article__row_one {
+  display: flex;
+  flex-direction: column;
+}
+
+.first_article__row_two {
+  display: flex;
+}
+
+.first_article__row_one--text-block {
+  margin-bottom: 0.5em;
+  line-height: 2em;
+}
+/* 
 .white_article {
   margin: 0 10em;
   padding: 0 3em;
@@ -103,4 +126,4 @@ em {
 .lightgrey_article {
   padding: 2em;
   background-color: #f2f2f0;
-}
+} */
