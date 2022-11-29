@@ -15,6 +15,11 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
 em {
   font-weight: 700;
 }
@@ -102,7 +107,6 @@ em {
 .darkblue_article--form {
   display: flex;
   padding: 2em 0 1em;
-  
 }
 
 .form__mail {
@@ -117,7 +121,6 @@ em {
   outline: 0;
 	border: 0;
   border-radius: 0.5em;
-	
 }
 
 .form-btn {
@@ -157,8 +160,60 @@ em {
 }
 
 .darkblue_article--small_text {
+  width: 55%;
   font-size: 0.7em;
   font-style: italic;
+}
+
+.darkgrey_article--small_text {
+  width: 55%;
+  font-size: 0.7em;
+  font-style: italic;
+  color:#747481; 
+}
+
+.white_faq_article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 4em 7em;
+  background-color: white;
+}
+
+.white_faq_article__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  margin-bottom: 1.6em;
+}
+
+.faq_btn {
+  width: 32%;
+  /* height: auto; */
+  border: 1px solid;
+  border-color: #8d8d8d;
+  border-radius: 1em;
+  background-color: #fff;
+  padding: 0.5em;
+  text-decoration: none;
+  font: inherit;
+  color: black;
+  cursor: pointer;
+}
+
+.white_faq_article__text {
+  margin: 1em 0 ;
+  font-size: 0.9em;
+}
+
+.darkgrey_article {
+  padding: 1.5em;
+  background-color: #d9cdbf;
+  text-align: center;
+}
+
+.darkgrey_article--coreg_text {
+  color:#747481;
 }
 
 
@@ -170,11 +225,7 @@ em {
   text-align: center;
 }
 
-.darkgrey_article {
-  padding: 1.5em;
-  background-color: #d9cdbf;
-  text-align: center;
-}
+
 
 .lightgrey_article {
   padding: 2em;
