@@ -101,7 +101,7 @@ em {
 
 .darkblue_article--form {
   display: flex;
-  padding: 2em 0 2em;
+  padding: 2em 0 1em;
   
 }
 
@@ -139,7 +139,26 @@ em {
 
 .coreg__container {
   display: flex;
-  justify-content: center;
+  width:43%;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+
+.coreg__checkbox {
+  margin-right: 0.8em;
+}
+
+.darkblue_article--title {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.darkblue_article--small_text {
+  font-size: 0.7em;
+  font-style: italic;
 }
 
 
