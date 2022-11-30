@@ -203,7 +203,7 @@ em {
 
 .white_faq_article__text {
   margin: 1em 0 ;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .darkgrey_article {
@@ -216,8 +216,22 @@ em {
   color:#747481;
 }
 
+.lightgrey_article {
+  padding: 3em 8em 4em;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f0;
+}
 
-/* 
+.lightgrey_section__name-dark {
+  background-color: #11283a;
+}
+
+.lightgrey_section__name-light {
+  background-color: #2d64d8;
+}
+
+
 
 .lightblue_article {
   padding: 1.5em;
@@ -225,9 +239,3 @@ em {
   text-align: center;
 }
 
-
-
-.lightgrey_article {
-  padding: 2em;
-  background-color: #f2f2f0;
-} */
