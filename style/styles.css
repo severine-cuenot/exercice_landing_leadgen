@@ -223,13 +223,37 @@ em {
   background-color: #f2f2f0;
 }
 
+.lightgrey_section__text {
+  width: 50%;
+  padding: 3em 6em 1.5em;
+  z-index: 1;
+  position: relative;
+  border-radius: 3em;
+  background-color:#fff;
+  line-height: 1.2em;
+}
+
 .lightgrey_section__name-dark {
+  width: 10%;
+  padding: 0.5em 6em;
+  z-index: 3;
+  position: absolute;
   background-color: #11283a;
+  border-radius: 3em;
+  color:#fff
 }
 
 .lightgrey_section__name-light {
+  width: 10%;
+  padding: 0.5em 6em;
+  z-index: 2;
+  position: absolute;
   background-color: #2d64d8;
+  border-radius: 3em;
+  color:#fff
 }
+
+
 
 
 
